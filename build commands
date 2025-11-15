@@ -1,0 +1,10 @@
+dir: root
+
+# build
+cmake -S . -B build
+
+# compile
+cmake --build build
+
+# run
+build/cpp_chess
